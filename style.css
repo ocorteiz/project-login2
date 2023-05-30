@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #19202a;
+    color:  #ffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img#icon {
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+section {
+    height: 500px;
+    width: 700px;
+    background-image: linear-gradient(to bottom left, #474b54, #1e252f);
+    border-radius: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    margin: 30px;
+}
+
+img.tam {
+    width: 25px;
+    margin-right: 10px;
+}
+
+input, button {
+    width: 250px;
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.508);
+    padding: 5px 5px;
+    margin: 1.5vh auto;
+    background-color: #6f757f;
+    color:  #ffff;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#email, input#pass {
+    background-color: #585f69;
+    padding: 8px 5px;
+}
+
+button#env {
+    padding: 10px 130px;
+    margin: 40px;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+button:hover {
+    background-color: #878e9a;
+}
